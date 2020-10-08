@@ -12,6 +12,7 @@ namespace Github_test1
 {
     public partial class Form1 : Form
     {
+        int a;
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace Github_test1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Github Test!");
+            a = 1000;
         }
     }
 }
