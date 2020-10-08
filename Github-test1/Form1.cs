@@ -26,7 +26,7 @@ namespace Github_test1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Github Test!");
-            a = 10000;
+            a = 1000;
         }
     }
 }
